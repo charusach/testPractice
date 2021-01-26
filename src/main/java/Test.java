@@ -1,6 +1,6 @@
 public class Test {
 
-    private int a, b, c;
+    private int a, b, c, d;
 
     public Test(int a, int b, int c) {
         this.a = a;
@@ -10,6 +10,14 @@ public class Test {
 
     public int getA() {
         return a;
+    }
+
+    public int getD() {
+        return d;
+    }
+
+    public void setD(int d) {
+        this.d = d;
     }
 
     public int getB() {
